@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gửi lời mời tham gia sự kiện</title>
+  <style>
+    button {
+      background-color: #ee0ec5;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin: 10px;
+    }
+    button:hover {
+      background-color: #d143b0;
+    }
+    .email {
+        width: 680px;
+        height: 380px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgba(224, 224, 224, 0.541);
+        margin: 0 auto;
+    }
+    input{
+      width: 300px; 
+      height: 40px; 
+      border: 1px solid rgb(255, 250, 250);
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body >
+    <div class="email">
+        <img src="https://www.citypng.com/public/uploads/preview/png-mail-email-address-round-outline-pink-icon-11637079449w7hessjbd6.png" width="70" height="70">
+        <h1>Gửi lời mời tham gia sự kiện</h1>
+        <p> Hãy nhập email người mà bạn muốn gửi lời mời </p>
+        <form action="submit.php" method="post">
+            <label for="email"> </label>
+            <input  placeholder="Enter Email" id="email" name="email" required>
+        </form>
+        <button>Gửi lời mời !</button>
+    </div>
+</body>
+</html>
